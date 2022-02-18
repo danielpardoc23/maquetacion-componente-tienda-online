@@ -36,4 +36,15 @@
     margin-top: 20px;
     height: 50px;
     font-size: larger;
+    margin-bottom: 20px;
+}
+
+.bocadillo{
+    color: grey;
+    font-size:large;
+}
+
+.ayudas{
+    padding-top:20px;
+    border-top:1px solid grey;
 }
