@@ -1,0 +1,25 @@
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(223, 210, 210);
+    border-radius: 15px;
+    padding:20px;
+    width:250px;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    border-bottom: 1px solid grey;
+}
+
+.nombre{
+    font-size: larger;
+    font-weight:bolder;
+}
+
+.direccion{
+    color:green;
+    padding-bottom: 10px;
+}
