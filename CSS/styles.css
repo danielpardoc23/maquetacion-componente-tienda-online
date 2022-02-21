@@ -1,14 +1,15 @@
-*{
+body{
     font-family:calibri;
+    background-color: beige;
 }
 
 .contenedor{
     display:flex;
     flex-direction: column;
-    background-color:rgb(223, 210, 210);
+    background-color:#FFFFFF;
     border-radius: 15px;
     padding:20px;
-    width:250px;
+    width:200px;
 }
 
 .intro{
@@ -40,16 +41,24 @@
     border:0px;
 }
 
+.boton button:hover{
+    cursor:pointer;
+}
+
+.boton{
+    border-bottom: 1px solid #B3AFAD;
+}
+
 .bocadillo{
     color: #B3AFAD;
     font-size:large;
 }
 
-.separador{
-    display: flex;
-    height: 60px;
-    flex-direction: column;
-    justify-content: space-between;
+.ayudas{
     padding-top:20px;
     border-top:1px solid #B3AFAD;
+}
+
+.separador{
+    padding-top: 20px;
 }
