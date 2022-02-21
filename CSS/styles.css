@@ -43,6 +43,7 @@ body{
 
 .boton button:hover{
     cursor:pointer;
+    background-color: #00894E;
 }
 
 .boton{
@@ -65,4 +66,15 @@ body{
     justify-content: space-between;
     flex-direction: column;
     height: 70px;
+}
+
+.separador div{
+    height: 100%;
+    width:100%;
+    margin:0px;
+}
+
+.separador div:hover{
+    background-color: #E6E6E6;
+    cursor:pointer;
 }
