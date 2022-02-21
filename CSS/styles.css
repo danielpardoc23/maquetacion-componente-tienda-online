@@ -31,7 +31,7 @@ body{
 
 .boton button{
     width:100%;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #01AC60;
     color: white;
     margin-top: 20px;
@@ -61,4 +61,8 @@ body{
 
 .separador{
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70px;
 }
